@@ -10,8 +10,8 @@ shell$ git clone -b v2019.2-0 https://github.com/ikwzm/ZynqMP-U-Boot-UltraZed-EG
 ## Copy boot.bin
 
 ```console
-shell$ cp ZynqMP-U-Boot-UltraZed-EG-IOCC/boot.bin                 ../boot/
-shell$ cp ZynqMP-U-Boot-UltraZed-EG-IOCC/boot_outer_shareable.bin ../boot/
+shell$ cp ZynqMP-U-Boot-UltraZed-EG-IOCC/boot.bin                 target/UltraZed-EG-IOCC/boot/
+shell$ cp ZynqMP-U-Boot-UltraZed-EG-IOCC/boot_outer_shareable.bin target/UltraZed-EG-IOCC/boot/
 ```
 
 ## Reference
