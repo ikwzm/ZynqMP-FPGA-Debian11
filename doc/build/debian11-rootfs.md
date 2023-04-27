@@ -192,8 +192,11 @@ debian11-rootfs# apt-get install -y firmware-realtek
 debian11-rootfs# apt-get install -y firmware-ralink
 ```
 
+Note: If the version of wl18xx-fw-4.bin is 8.9.1.0.0 or later, it will not work, so use 8.9.0.0.90.
+
 ```console
 debian11-rootfs# git clone git://git.ti.com/wilink8-wlan/wl18xx_fw.git
+debian11-rootfs# cd wl18xx_fw && git checkout d2588c16809ecca8e0dc7ea011fc6180c7b08a92 && cd -
 debian11-rootfs# cp wl18xx_fw/wl18xx-fw-4.bin /lib/firmware/ti-connectivity
 debian11-rootfs# rm -rf wl18xx_fw/
 ```
