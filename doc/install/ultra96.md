@@ -7,7 +7,7 @@
 ```console
 shell$ wget https://github.com/ikwzm/ZynqMP-FPGA-Debian11/archive/refs/tags/v0.1.0.tar.gz
 shell$ tar xfz v0.1.0.tar.gz
-shell$ cd ZynqMP-FPGA-Debian11-v0.1.0
+shell$ cd ZynqMP-FPGA-Debian11-0.1.0
 ```
 
 ### File Description
