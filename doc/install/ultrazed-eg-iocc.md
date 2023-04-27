@@ -30,7 +30,7 @@ shell$ cd ZynqMP-FPGA-Debian11-0.1.0
  
 ### Format SD-Card
 
-[./doc/install/format-disk-zynq.md](format-disk-zynq.md)
+[./doc/install/format-disk.md](format-disk.md)
 
 ### Write to SD-Card
 
