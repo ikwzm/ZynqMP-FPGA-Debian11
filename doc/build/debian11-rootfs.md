@@ -18,7 +18,7 @@ shell$ sudo debootstrap --arch=arm64 --foreign $distro     $PWD/$targetdir
 shell$ sudo cp /usr/bin/qemu-aarch64-static                $PWD/$targetdir/usr/bin
 shell$ sudo cp /etc/resolv.conf                            $PWD/$targetdir/etc
 shell$ sudo cp scripts/build-debian11-rootfs-with-qemu.sh  $PWD/$targetdir
-shell$ sudo cp debian/linux-image-5.15.108-zynqmp-fpga-generic_5.15.108-zynqmp-fpga-generic-2_arm64.deb  $PWD/$targetdir
+shell$ sudo cp debian/linux-image-5.15.108-zynqmp-fpga-generic_5.15.108-zynqmp-fpga-generic-3_arm64.deb  $PWD/$targetdir
 ````
 
 ## Build Debian RootFS second-step with QEMU
@@ -229,7 +229,7 @@ debian11-rootfs# apt-get install -y haveged
 ### Install Linux Modules
 
 ```console
-debian11-rootfs# dpkg -i linux-image-5.15.108-zynqmp-fpga-generic_5.15.108-zynqmp-fpga-generic-2_arm64.deb
+debian11-rootfs# dpkg -i linux-image-5.15.108-zynqmp-fpga-generic_5.15.108-zynqmp-fpga-generic-3_arm64.deb
 ```
 
 ### Clean Cache
@@ -250,7 +250,7 @@ debian11-rootfs# dpkg -l > dpkg-list.txt
 debian10-rootfs# exit
 shell$ sudo rm -f $PWD/$targetdir/usr/bin/qemu-aarch64-static
 shell$ sudo rm -f $PWD/$targetdir/build-debian11-rootfs-with-qemu.sh
-shell$ sudo rm -f $PWD/$targetdir/linux-image-5.15.108-zynqmp-fpga-generic_5.15.108-zynqmp-fpga-generic-2_arm64.deb
+shell$ sudo rm -f $PWD/$targetdir/linux-image-5.15.108-zynqmp-fpga-generic_5.15.108-zynqmp-fpga-generic-3_arm64.deb
 shell$ sudo mv    $PWD/$targetdir/dpkg-list.txt files/debian11-dpkg-list.txt
 ```
 

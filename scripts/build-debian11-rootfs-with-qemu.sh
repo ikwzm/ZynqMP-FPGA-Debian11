@@ -122,7 +122,7 @@ apt-get install -y haveged
 
 ### Install Linux Modules
 
-dpkg -i linux-image-5.15.108-zynqmp-fpga-generic_5.15.108-zynqmp-fpga-generic-1_arm64.deb
+dpkg -i linux-image-5.15.108-zynqmp-fpga-generic_5.15.108-zynqmp-fpga-generic-3_arm64.deb
 
 ### Clean Cache
 
