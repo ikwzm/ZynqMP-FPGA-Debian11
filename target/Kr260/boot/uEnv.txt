@@ -19,7 +19,7 @@ linux_fdt_image=devicetree-5.15.108-zynqmp-fpga-generic-kr260-revB.dtb
 #  * linux_boot_args_other   :
 ########################################################################
 linux_boot_args_console=console=ttyPS1,115200
-linux_boot_args_rootfs=root=/dev/mmcblk1p2 rw rootwait
+linux_boot_args_rootfs=root=/dev/sda2 rw rootwait
 linux_boot_args_systemd=systemd.unit=multi-user.target
 linux_boot_args_cpuidle=cpuidle.off=1
 linux_boot_args_cma=cma=1000M
