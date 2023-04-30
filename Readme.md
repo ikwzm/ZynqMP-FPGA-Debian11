@@ -22,6 +22,7 @@ This Repository provides a Linux Boot Image(U-boot, Kernel, Debian 11 RootFS) fo
   + Ultra96    : Xilinx Zynq UltraScale+ MPSoC development board based on the Linaro 96Boards specification. 
   + Ultra96-V2 : updates and refreshes the Ultra96 product that was released in 2018.
   + KV260      : Kria KV260 Vision AI Startar Kit.
+  + KR260      : Kria KR260 Robotics  Startar Kit.
 * Boot Loader
   + FSBL(First Stage Boot Loader for ZynqMP)
   + PMU Firmware(Platform Management Unit Firmware)
@@ -35,7 +36,7 @@ This Repository provides a Linux Boot Image(U-boot, Kernel, Debian 11 RootFS) fo
   + Enable FPGA Bridge
   + Enable FPGA Reagion
   + Enable ATWILC3000 Linux Driver for Ultra96-V2
-* Debian11.1(bullseye) Root File System
+* Debian11.6(bullseye) Root File System
   + Installed build-essential
   + Installed device-tree-compiler
   + Installed ruby ruby-msgpack ruby-serialport
@@ -54,7 +55,7 @@ For Linux Kernel and Debian11 RootFS, please refer to the respective release tag
 
 | Release  | Released  | Debian Version | Linux Kernel Version           | Release Tag |
 |:---------|:----------|:---------------|:-------------------------------|:------------|
-| v0.1.2   | 2023-4-29 | Debian 11.6    | 5.15.108-zynqmp-fpga-generic-3 | [v0.1.2](https://github.com/ikwzm/ZynqMP-FPGA-Debian11/tree/v0.1.2)
+| v1.0.0   | 2023-4-30 | Debian 11.6    | 5.15.108-zynqmp-fpga-generic-5 | [v1.0.0](https://github.com/ikwzm/ZynqMP-FPGA-Debian11/tree/v1.0.0)
 
 Install
 ------------------------------------------------------------------------------------
@@ -64,20 +65,33 @@ Install
   + [Ultra96](doc/install/ultra96.md)
   + [Ultra96-V2](doc/install/ultra96v2.md)
   + [KV260](doc/install/kv260.md)
+  + [KR260](doc/install/kr260.md)
+
+
+Build 
+------------------------------------------------------------------------------------
+
+* [Build Boot Loader for UltraZed-EG-IOCC](doc/build/boot-ultrazed-eg-iocc.md)
+* [Build Boot Loader for Ultra96](doc/build/boot-ultra96.md)
+* [Build Boot Loader for Ultra96-V2](doc/build/boot-ultra96v2.md)
+* [Build Linux Kernel](doc/build/linux-5.15.108-zynqmp-fpga-generic.md)
+* [Build Debian11 RootFS](doc/build/debian11-rootfs.md)
 
 Other Projects
 ------------------------------------------------------------------------------------
 
 * https://github.com/ikwzm/ZynqMP-FPGA-Linux-Kernel-5.15
   + Linux Kernel (v5.15.x) Image and Device Trees for Zynq MPSoC.
+* https://github.com/ikwzm/ZynqMP-U-Boot-Ultra96
+  + Boot Loader(U-Boot, FSBL, PMUFW,ATF) for Ultra96
+* https://github.com/ikwzm/ZynqMP-U-Boot-Ultra96-V2
+  + Boot Loader(U-Boot, FSBL, PMUFW,ATF) for Ultra96-V2
+* https://github.com/ikwzm/ZynqMP-U-Boot-UltraZed-EG-IOCC
+  + Boot Loader(U-Boot, FSBL, PMUFW,ATF) for UltraZed-EG-IOCC
 * https://github.com/ikwzm/ZynqMP-FPGA-Ubuntu22.04-Console
   + Linux Boot Image(U-boot, Kernel, Ubuntu 22.04-Console) for Ultra96/Ultra96-V2/Kv260
 * https://github.com/ikwzm/ZynqMP-FPGA-Ubuntu22.04-Desktop
   + Linux Boot Image(U-boot, Kernel, Ubuntu 22.04-Desktop) for Ultra96/Ultra96-V2/Kv260
-* https://github.com/ikwzm/ZynqMP-FPGA-Xserver
-  + The X-Window server Debian Package for ZynqMP-FPGA-Linux
-* https://github.com/ikwzm/ZynqMP-FPGA-XRT
-  + The XRT(Xilinx Runtime) Debian Package for ZynqMP-FPGA-Linux
 
 
 Examples
