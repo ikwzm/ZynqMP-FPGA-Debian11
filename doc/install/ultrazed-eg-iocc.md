@@ -73,4 +73,4 @@ shell# umount /mnt/usb2
 
 ### Install Debian Packages
 
-[./doc/install/debian-packages.md](debian-packages.md.md)
+[./doc/install/debian-packages.md](debian-packages.md)
