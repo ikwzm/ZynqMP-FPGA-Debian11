@@ -99,7 +99,7 @@ apt-get install -y firmware-realtek
 apt-get install -y firmware-ralink
 
 git clone git://git.ti.com/wilink8-wlan/wl18xx_fw.git
-pushd wl18xx_fw && git checkout d2588c16809ecca8e0dc7ea011fc6180c7b08a92 && popd
+cd wl18xx_fw && git checkout d2588c16809ecca8e0dc7ea011fc6180c7b08a92 && cd ..
 cp wl18xx_fw/wl18xx-fw-4.bin /lib/firmware/ti-connectivity
 rm -rf wl18xx_fw/
 
@@ -122,7 +122,7 @@ apt-get install -y haveged
 
 ### Install Linux Modules
 
-dpkg -i linux-image-5.15.108-zynqmp-fpga-generic_5.15.108-zynqmp-fpga-generic-3_arm64.deb
+dpkg -i linux-*.deb
 
 ### Clean Cache
 
