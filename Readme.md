@@ -36,7 +36,7 @@ This Repository provides a Linux Boot Image(U-boot, Kernel, Debian 11 RootFS) fo
   + Enable FPGA Bridge
   + Enable FPGA Reagion
   + Enable ATWILC3000 Linux Driver for Ultra96-V2
-* Debian11.6(bullseye) Root File System
+* Debian11.7(bullseye) Root File System
   + Installed build-essential
   + Installed device-tree-compiler
   + Installed ruby ruby-msgpack ruby-serialport
@@ -55,7 +55,7 @@ For Linux Kernel and Debian11 RootFS, please refer to the respective release tag
 
 | Release  | Released  | Debian Version | Linux Kernel Version           | Release Tag |
 |:---------|:----------|:---------------|:-------------------------------|:------------|
-| v1.0.0   | 2023-4-30 | Debian 11.6    | 5.15.108-zynqmp-fpga-generic-5 | [v1.0.0](https://github.com/ikwzm/ZynqMP-FPGA-Debian11/tree/v1.0.0)
+| v1.0.0   | 2023-4-30 | Debian 11.7    | 5.15.108-zynqmp-fpga-generic-5 | [v1.0.0](https://github.com/ikwzm/ZynqMP-FPGA-Debian11/tree/v1.0.0)
 
 Install
 ------------------------------------------------------------------------------------
