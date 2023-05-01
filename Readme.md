@@ -36,7 +36,7 @@ This Repository provides a Linux Boot Image(U-boot, Kernel, Debian 11 RootFS) fo
   + Enable FPGA Bridge
   + Enable FPGA Reagion
   + Enable ATWILC3000 Linux Driver for Ultra96-V2
-* Debian11.6(bullseye) Root File System
+* Debian11.7(bullseye) Root File System
   + Installed build-essential
   + Installed device-tree-compiler
   + Installed ruby ruby-msgpack ruby-serialport
