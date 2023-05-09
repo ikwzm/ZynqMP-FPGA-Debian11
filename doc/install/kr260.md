@@ -5,9 +5,9 @@
 **Note: Downloading the entire repository takes time, so download the source code from https://github.com/ikwzm/ZynqMP-FPGA-Debian11/releases.**
 
 ```console
-shell$ wget https://github.com/ikwzm/ZynqMP-FPGA-Debian11/archive/refs/tags/v1.0.0.tar.gz
-shell$ tar xfz v1.0.0.tar.gz
-shell$ cd ZynqMP-FPGA-Debian11-1.0.0
+shell$ wget https://github.com/ikwzm/ZynqMP-FPGA-Debian11/archive/refs/tags/v1.0.1.tar.gz
+shell$ tar xfz v1.0.1.tar.gz
+shell$ cd ZynqMP-FPGA-Debian11-1.0.1
 ```
 
 ### File Description
