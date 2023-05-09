@@ -5,9 +5,9 @@
 **Note: Downloading the entire repository takes time, so download the source code from https://github.com/ikwzm/ZynqMP-FPGA-Debian11/releases.**
 
 ```console
-shell$ wget https://github.com/ikwzm/ZynqMP-FPGA-Debian11/archive/refs/tags/v1.0.0.tar.gz
-shell$ tar xfz v1.0.0.tar.gz
-shell$ cd ZynqMP-FPGA-Debian11-1.0.0
+shell$ wget https://github.com/ikwzm/ZynqMP-FPGA-Debian11/archive/refs/tags/v1.0.1.tar.gz
+shell$ tar xfz v1.0.1.tar.gz
+shell$ cd ZynqMP-FPGA-Debian11-1.0.1
 ```
 
 ### File Description
@@ -17,7 +17,7 @@ shell$ cd ZynqMP-FPGA-Debian11-1.0.0
      - boot.bin                                                 : Stage 1 Boot Loader
      - uEnv.txt                                                 : U-Boot environment variables for linux boot
      - devicetree-5.15.108-zynqmp-fpga-generic-ultra96v2.dtb    : Linux Device Tree Blob   
-     - devicetree-5.15.108-zynqmp-fpga-generic-ultra96v2.dts    : Linux Device Tree Blob   
+     - devicetree-5.15.108-zynqmp-fpga-generic-ultra96v2.dts    : Linux Device Tree Source
  * files/
      - vmlinuz-5.15.108-zynqmp-fpga-generic-5                   : Linux Kernel Image
  * debian11-rootfs-vanilla.tgz.files/                           : Debian11 Root File System
