@@ -55,7 +55,7 @@ For Linux Kernel and Debian11 RootFS, please refer to the respective release tag
 
 | Release  | Released  | Debian Version | Linux Kernel Version           | Release Tag |
 |:---------|:----------|:---------------|:-------------------------------|:------------|
-| v1.0.0   | 2023-4-30 | Debian 11.7    | 5.15.108-zynqmp-fpga-generic-5 | [v1.0.0](https://github.com/ikwzm/ZynqMP-FPGA-Debian11/tree/v1.0.0)
+| v1.0.1   | 2023-5-10 | Debian 11.7    | 5.15.108-zynqmp-fpga-generic-5 | [v1.0.1](https://github.com/ikwzm/ZynqMP-FPGA-Debian11/tree/v1.0.1)
 
 Install
 ------------------------------------------------------------------------------------
